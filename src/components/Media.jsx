@@ -24,4 +24,4 @@ function mapStateToProps(state) {
     }
 }
 
-export default connect(mapStateToProps)(Media)
+export default connect(mapStateToProps)(Media);
