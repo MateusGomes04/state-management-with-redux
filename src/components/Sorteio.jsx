@@ -2,9 +2,9 @@ import React from "react"
 import { connect } from "react-redux"
 import Card from "./Card"
 
-function Sorteio(props){
-    const {min, max} = props
-    const aleatorio = parseInt(Math.random() * (max-min)) + min
+function Sorteio(props) {
+    const { min, max } = props
+    const aleatorio = parseInt(Math.random() * (max - min)) + min
     return (
         <Card title="Sorteio de um Número" purple>
             <div>

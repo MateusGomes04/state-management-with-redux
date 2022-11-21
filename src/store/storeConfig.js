@@ -6,7 +6,7 @@ const reducers = combineReducers({
     numeros: numerosReducer,
 })
 
-function storeConfig(){
+function storeConfig() {
     return createStore(reducers)
 }
 

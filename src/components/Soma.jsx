@@ -5,7 +5,7 @@ import Card from "./Card"
 
 function Soma(props) {
 
-const {min, max} = props
+    const { min, max } = props
     return (
         <Card title="Soma dos Números" blue>
             <div>

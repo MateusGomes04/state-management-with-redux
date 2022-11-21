@@ -1,7 +1,7 @@
-import { 
+import {
     NUM_MIN_ALTERADO,
     NUM_MAX_ALTERADO
- } from './actionTypes'
+} from './actionTypes'
 
 // Action Creator
 export function alterarNumeroMinimo(novoNumero) {
